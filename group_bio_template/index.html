@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <h1>Meet Our Team</h1>
+    <h1>We are MMC</h1>
     <!-- team logo -->
     <img src="img/newTeamLogo.png" alt="Team Logo" class="team-logo">
 
@@ -21,8 +21,6 @@
 </header>
 
 <!-- Team bios section -->
-
-<h3>We are MMC</h3>
 
 <div id="bios" class="container">
     
@@ -39,7 +37,7 @@
     </div>
     <div class="card">
     <h2>Meenu</h2>
-    <button onclick="toggleBio('bio2')">Show Moodboard</button>
+    <button onclick="toggleBio('bio2')">Show Bio</button>
     <div id="bio2" class="bio">
         <p>I'm passionate about front-end development and love bringing beautiful, functional designs to life. Java is my fav because it's clean and organized—just like I like my code 🩷</p>
         <img src="img/Moodboard.png" alt="Meenu Moodboard" style="max-width: 100%; border-radius: 10px; margin-top: 10px;">
@@ -49,17 +47,19 @@
 
     <div class="card">
         <h2>Jaelynn James</h2>
-        <p>UI/UX Designer</p>
         <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">I'm a UI/UX designer with a drive for creating user-friendly and fun looking designing for websites, apps and games!!</p>
+        <div id="bio3" class="bio">
+        <p>I'm a UI/UX designer with a drive for creating user-friendly and fun looking layouts for websites, apps and games!!</p>
+        <img src="img/JaeMoodBoard.png" alt="Jae's Moodboard" style="max-width: 100%; border-radius: 10px; margin-top: 10px;">
+        <p><a href="https://github.com/jjames73" target="_blank">GitHub: JJames73</a></p>
     </div>
 </div>
+    </div>
 
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
     <h2>Our Mission Statement</h2>
     <p>Our team is dedicated to developing intuitive web platforms that optimize workflow and open digital doors for businesses stepping into the future.</p>
-    <div>
   <h2>At MMC We Commit To...</h2>
   <ul id="promises">
     <li><strong>Sharing the Load</strong> – We share customer requests based on our team members skillset's</li>
@@ -67,9 +67,8 @@
     <li><strong>Preserving Your Ideas</strong> – We maintain the integrity of your ideas while helping refine and elevate them</li>
     <li><strong>Planning with Purpose</strong> – We plan, communicate, and optimize until your goals are fully realized</li>
   </ul>
-</div>
+    </div>
 
-</div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
 
