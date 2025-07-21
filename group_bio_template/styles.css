@@ -8,7 +8,7 @@ body {
 
 /* Header section styling */
 header {
-    background: #333;
+    background: black;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -16,7 +16,7 @@ header {
 
 /* Styling for team logo image */
 .team-logo {
-    width: 150px; /* Adjust the size as needed */
+    width: 200px; /* Adjust the size as needed */
     margin-top: 10px;
 }
 
@@ -26,17 +26,19 @@ header nav {
 }
 
 header nav button {
-    background: #007BFF;
-    color: white;
+    background: #fff;
+    color: black;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     margin: 0 5px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 header nav button:hover {
-    background: #0056b3;
+    background: #c6c6c6;
 }
 
 /* Flex container for team bios and vision sections */
@@ -47,6 +49,16 @@ header nav button:hover {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+h3 {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
 
 /* Card styling for individual team bios */
 .card {
@@ -66,6 +78,10 @@ header nav button:hover {
 
 h2 {
     margin: 0 0 10px;
+}
+
+#bios {
+  text-align: center;
 }
 
 /* Initially hide bio details */
@@ -88,3 +104,23 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+#vision {
+width: 70%;
+margin: 40 auto;
+text-align: center;
+}
+
+#promises {
+  width: 70%;                 /* Sets the box width (adjust as needed) */
+  margin: 0 auto;             /* Centers the box horizontally */
+  text-align: left;           /* Keeps bullet text aligned to the left */
+  list-style-position: inside;
+  border-radius: 8px;
+}
+
+#promises li {
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
